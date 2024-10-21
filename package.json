@@ -1,7 +1,7 @@
 {
   "name": "interstellar",
-  "type": "module",
   "version": "6.0.0",
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "tsx index.ts",
@@ -52,7 +52,5 @@
   "resolutions": {
     "cookie": "^0.7.0"
   },
-  "engines": {
-    "pnpm": ">=8.0.0"
-  }
+  "packageManager": "pnpm@8.x"
 }
